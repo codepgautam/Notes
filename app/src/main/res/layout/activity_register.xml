@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/profileimg"
+                app:civ_border_color="#F4973C"
+                app:civ_border_width="3dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:autofillHints=""
+                android:gravity="center_horizontal"
+                android:singleLine="true"
+                android:text="upload_photo"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints=""
+                android:background="@drawable/editextborder"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#3E020202"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints=""
+                android:background="@drawable/editextborder"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="User Name"
+                android:inputType="text"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#3E020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints=""
+                android:background="@drawable/editextborder"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Phone number"
+                android:inputType="phone"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#3E020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints=""
+                android:background="@drawable/editextborder"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="E-mail address"
+                android:inputType="textEmailAddress"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#3E020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints=""
+                android:background="@drawable/editextborder"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:textColorHint="#3E020202"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/button_gradient"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="Register"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Already have an account login"
+                android:textColor="#0B0A0A" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
